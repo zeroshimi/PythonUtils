@@ -1,5 +1,5 @@
 import json
-import np
+import numpy as np
 
 def JsonSave(fileName: str, data: any):
     with open(fileName ,mode='w') as f:
